@@ -74,7 +74,14 @@
             <version>${spring.version}</version>
         </dependency>
 
-        <!-- QuartzJobBean in spring-context-support.jar -->
+        <!-- Spring caching -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- QuartzJobBean ， Ehcache-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
